@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 1800px;
+            border: 2px solid;
+            margin: auto;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0px;
+        }
+        .link ul li{
+            display: inline-block;
+            margin: 10px;
+            /* padding: 10px; */
+        }
+        .link ul li a{
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+        .link ul li sup{
+            color: red;
+        }
+        .logo img{
+            width: 50px;
+            height: 50px;
+        }
+
+        .search-bar{
+            /* width: 400px; */
+            background-color: rgb(243, 237, 229);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .side{
+            display: flex;
+            margin: 0px 10px;
+        }
+        input{
+            border: none;
+            outline: none;
+            margin: 0 0 0 20px;
+            /* padding-right: 100px; */
+            padding: 5px 20px;
+            border: none;
+            background-color: rgb(243, 237, 229);
+            font-size: large;
+
+        }
+        .nav-side{
+            text-align: center;
+            margin: 0px 20px;
+        }
+        .nav-side h6{
+            font-size: 1rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="./image/MYNTRA LOGO.cms" alt="">
+                </div>
+                <div class="link">
+                    <ul>
+                        <li><a href="#">MENS</a></li>
+                        <li><a href="#">WOMENS</a></li>
+                        <li><a href="#">KIDS</a></li>
+                        <li><a href="#">HOME & LIVING</a></li>
+                        <li><a href="#">BEAUTY</a></li>
+                        <li><a href="#">STUDIO <sup>NEW</sup></a></li>
+                    </ul>
+                </div>
+                
+                <div class="search-bar">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search For Products Brand & More">
+                    </div>
+                    
+                </div>
+                
+                <div class="side">
+
+                    <div class="nav-side">
+                        <i class="fa-regular fa-user"></i>
+                        <h6>Profile</h6>
+                    </div>
+                    <div class="nav-side">
+                        <i class="fa-regular fa-heart"></i>
+                        <h6>Whislist</h6>
+                    </div>
+                    <div class="nav-side">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <h6>Bag</h6>
+                    </div>
+                </div>
+                
+
+            </nav>
+        </div>
+
+    </header>
+</body>
+
+</html>
