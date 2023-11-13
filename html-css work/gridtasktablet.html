@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(10,1fr);
+            grid-template-rows: repeat(13,100px);
+            text-align: center;
+            justify-items: center;
+            align-items: center;
+            background-color: brown;
+        }
+        .style{
+            min-height: 100px;
+            vertical-align: middle;
+            width: 100%;
+            text-transform: uppercase;
+
+        }
+        .box1{
+            grid-column-start: 1;
+            grid-column-end: 11;
+            background-color: black;
+            color: #ffffff;
+        }
+        .box2{
+            grid-column-start: 1;
+            grid-column-end: 11;
+            grid-row-start: 2;
+            grid-row-end: 6;
+            background-color: blue;
+            color: #ffffff;
+        }
+        .box3{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 6;
+            grid-row-end: 14; 
+            background-color: red;
+            color: #ffffff;
+        }
+        .box4{
+            grid-column-start: 4;
+            grid-column-end: 11;
+            grid-row-start: 6;
+            grid-row-end: 10;
+            background-color: darkblue;
+            color: #ffffff;
+        }
+        .box5{
+            grid-column-start: 4;
+            grid-column-end: 11;
+            grid-row-start: 10;
+            grid-row-end: 12;
+            background-color: yellow;
+        }
+        .box6{
+            grid-column-start: 4;
+            grid-column-end: 8;
+            grid-row-start: 12;
+            grid-row-end: 14;
+            background-color: green;
+        }
+        .box7{
+            grid-column-start: 8;
+            grid-column-end: 11;
+            grid-row-start: 12;
+            grid-row-end: 14;
+            background-color: cyan;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="box1 style">
+                header
+            </div>
+            <div class="box2 style">
+                Hero
+            </div>
+            <div class="box3 style">
+                menu
+            </div>
+            <div class="box4 style">
+                main
+            </div>
+            <div class="box5 style">
+                banner
+            </div>
+            <div class="box6 style">
+                Extra
+            </div>
+            <div class="box7 style">
+                Image
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            /* background-color: aqua; */
+            background-image: url(https://images.pexels.com/photos/2909077/pexels-photo-2909077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            /* border: 1px solid; */
+            border-radius: 10px;
+            width: 20vw;
+            background: linear-gradient(334deg,rgb(0, 255, 255,0.65), rgb(48, 48, 165,0.65));
+        
+        }
+        img{
+            width: 100%;
+            padding: 8px;
+            border-radius: 20px;
+        }
+        .card-details{
+            padding: 8px;
+            
+        }
+        .tag{
+            padding: 5px;
+            border: 1px solid aliceblue;
+            border-radius: 10px;
+
+        }
+        .name{
+            font-size: 1.3rem;
+            margin: 5px 0;
+            font-weight: 600;
+        }
+        .card-details p{
+            text-align: justify;
+            line-height: 150%;
+            margin: 6px 0;
+        }
+        button{
+            padding: 6px 8px;
+            border-radius: 5px;
+            border: none;
+            background: linear-gradient(45deg,white,aqua, rgb(97, 97, 165));
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://images.pexels.com/photos/3224533/pexels-photo-3224533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+
+            <div class="card-details">
+                <span class="tag">Historical</span>
+                <span class="tag">Beauty</span>
+
+                <p class="name">Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eligendi similique impedit placeat! Et debitis sequi totam rerum tenetur consequuntur earum assumenda quas in odio asperiores, quos rem quod quisquam!</p>
+
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

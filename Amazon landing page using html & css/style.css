@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Space+Mono:wght@700&family=Work+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e3e6e6;
+}
+header{
+}
+nav{
+    height: 60px;
+    font-family: 'Poppins';
+    background-color: #131921;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div-logo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    background-image: url("./images/amazon_logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50px;
+
+} 
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid #ffffff;
+}
+
+/* box 2 */
+.nav-address {
+    width: 88px;
+}
+.first-add{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.inside-nav-address{
+    display: flex;
+    align-items: center;
+}
+.second-add{
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-left: 3px;
+}
+
+/* box 3 */
+.search-bar{
+    width: 1278px;
+    height: 40px;
+    display: flex;
+    background-color: coral;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    columns: #0f1111;
+
+}
+.search-bar:hover{
+    border: 1px solid coral;
+}
+/* box 4 */
+.language{
+    width: 73px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.language img{
+    width: 24px;
+    height: 18px;
+}
+.language select{
+    color: #ffffff;
+    border: none;
+    background-color: #131921;
+    font-size: 0.9rem;
+}
+
+/* box 5 */
+span{
+    font-size: 0.8rem;
+}
+.acc-second{
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 25px;
+}  
+.nav-cart{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* panel */
+
+.panel{
+    height: 39px;
+    width: 100vw;
+    background-color: #232f3e;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all{
+    width: 58px;
+    padding: 7px 8px;
+}
+.links{
+    width: 80%;
+}
+.links ul li{
+    display: inline-block;
+    /* margin: 0px 11px; */
+    padding: 7px 8px;
+    border: 1px solid transparent;
+}
+.links ul li:hover{
+    border: 1px solid #ffffff;
+}
+.links ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.rightside-panel{
+    cursor: pointer;
+}
+
+/* Hero section */
+
+.hero-section{
+    background-image:linear-gradient(180deg,transparent,transparent,rgba(255, 255, 255, 1)
+    ) ,url("./images/Amazon-hero-img1.jpg") ;
+    background-size: cover;
+    width: 1500px;
+    height: 600px;
+    margin: 0px auto;
+}
+.outer-container{
+    position: relative;
+    top: -360px;
+    width: 100vw;
+    height: 600px;
+}
+.inner-container{
+    width: 1480px;
+    height: 900px;
+    margin: 0px auto;
+    /* background-color: orchid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.cards{
+    position: relative;
+    top: 20px;
+    background-color: #ffffff;
+    width: 350px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+}
+.card-header{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.inner-card{
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards img{
+    width: 140px;
+    height: 120px;
+}
+.inner-card p{
+    margin-bottom: 10px;
+}
+.cards a{
+    margin: 20px;
+}
+.footer{
+    width: 100vw;
+    
+}
+.top-bar{
+    width: 100vw;
+    background-color: #37475a;
+    
+}
+.top-bar a{
+    color: #ffffff;
+    text-decoration: none; 
+    text-align: center;
+    display: block;
+    padding: 15px 0px;
+    
+    
+}
+.footer{
+    background-color: #232f3e;
+}
+.top-bar a:hover{
+    background-color: #485769;
+}
+.main-footer{
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.link{
+    padding: 10px 10px;
+    height: 251px;
+}
+.main-footer p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.main-footer ul li{
+    list-style: none;
+    margin: 9px 0px;
+}
+.main-footer ul li a{
+    color: #cccccc;
+    text-decoration: none;
+}
+.footer-line{
+    width: 100vw;
+    height: 1px;
+    background-color: white;
+}
+.footer-logo{
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.footer-language{
+    display: flex;
+    margin: 0px 30px;
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+
+.footer-logo img{
+    width: 100px;
+    height: 80px;
+    margin-top: 5px;
+    margin-right:6px ;
+}
+.footer-language img{
+    width: 24px;
+    height: 24px;
+}
+.footer-language select{
+    background-color:#232f3e ;
+    color: #ffffff;
+    border: none;
+}
+.footer-city{
+    background-color:#232f3e ;
+}
+.city{
+    background-color:#232f3e ;
+    width: 982px;
+    margin: 0px auto;
+    
+}
+.city ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
+.city ul li{
+    list-style: none;
+    padding: 7px;
+    text-align: center;
+
+}
+.city ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+.features{
+    background-color:#131a22 ;
+    width: 1903px;
+    height: 157px;
+    padding: 30px 0px;
+    margin: 0px auto;
+    
+}
+.other-bussiness{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 1000px;
+    height: 97px;
+    margin: 0px auto;
+
+}
+.other-apps p{
+    color: #ffffff;
+}
+
+.other-bussiness a{
+    text-decoration: none;
+    color: #999999;
+    font-size: 13px;
+    display: inline-block;
+}
+.inner-a{
+   
+    color: coral;
+}
+.other-apps{
+    width: 159px;
+    height: 40px;
+    padding: 0px 9px;
+
+}

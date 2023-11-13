@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #292929;
+    padding: 18px 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.links{
+    width: 60%;
+}
+.links li{
+    list-style: none;
+    /* margin: 5px; */
+    padding: 10px;
+
+}
+.links li a:hover{
+    border: 1px solid #fff;
+}
+.links ul{
+    display: flex;
+    justify-content: space-between;
+}
+.links ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.hero-section{
+    background: url(https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0px;
+}
+.hero-section h5{
+    font-size: 3.2rem;
+    line-height: 150%;
+    font-weight: bolder;
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 90px 0 50px 0;
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 90px 0;
+    margin: 0 0 90px 0;
+}
+.btn button{
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    margin: 15px 15px 90px 15px;
+    border: none;
+    box-shadow: inset 0 0 6px black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn-1 button{
+    background-color: #292929;
+    color: #fff;
+}

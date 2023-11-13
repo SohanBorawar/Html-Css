@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #eaeff1;
+            font-family: "Raleway", sans-serif;
+        }
+
+        section {
+            width: 300px;
+            margin: 0px auto;
+            margin-top: 20vh;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #bacdd8;
+            padding: 8px;
+            border-radius: 12px;
+            font-weight: 600;
+            color: #788697;
+        }
+        img{
+            width: 100%;
+            border-radius: 12px;
+            height: 214px;
+            object-fit: cover;
+        }
+
+        .tag {
+            padding: 4px 8px;
+            border: 1px solid #e5eaed;
+            border-radius: 50px;
+            font-size: 12px;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: 600;
+            margin-top: 16px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #7f8c9b;
+            line-height: 150%;
+        }
+        button{
+            border: none;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: 600;
+            color: #0077ff;
+            background-color: #e0efff;
+            margin: 10px auto;
+            display: block;
+            cursor: pointer;
+        }
+        .card-details {
+            padding: 16px 8px 8px 8px;
+        }
+
+        button:focus,button:hover {
+            background-color: #0077ff;
+            color: #e0efff;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/14701288/pexels-photo-14701288.jpeg" alt="">
+            <div class="card-details">
+                <span class="tag">Nature</span>
+                <span class="tag">Lake</span>
+
+                <div class="name">Lorem, ipsum dolor.</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, ut.</p>
+
+                <button>Read More</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

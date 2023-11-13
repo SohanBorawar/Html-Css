@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    background: url(https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+header{
+
+}
+nav{
+    height: 100vh;
+    width: 25%;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -25%;
+}
+.logo{
+    margin: 30px 0;
+}
+.logo a{
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-weight: 600;
+   color: black;
+   text-shadow: 0 1px 1px cyan;
+}
+.links li{
+    display: block;
+    margin: 25px 0;
+    padding: 10px 40px;
+    border: none;
+}
+.links li:hover{
+    border-left: 2px solid white;
+    box-shadow: 0 2px 6px cyan;
+}
+.links li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+#check{
+    display: none;
+}
+.hamburger{
+    position: absolute;
+    padding: 25px;
+}
+.hamburger i{
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+
+}
+.cross i{
+    font-size: 1.8rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.cross i:hover{
+    border: 2px solid white;
+    transform: rotateZ(90deg);
+    transition: all 0.8s;
+}
+#check:checked ~ nav{
+    left: 0;
+}
+#check:checked ~ .hamburger i{
+    opacity: 0;
+}
+#check:checked ~ .cross i{
+    opacity: 1;
+}

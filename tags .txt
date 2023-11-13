@@ -1,0 +1,22 @@
+tags :
+open/closing tag & self closing tag
+block / inline tag 
+function 
+
+block tag - that takes maxwidth on the display
+inline tag - that takes the space only it requires 
+
+
+what is a meta ?
+meta is data about data 
+there are total 4 meta tag in a html head two provided before deployment 
+3 meta for description 
+4 meta for keyword seo rank
+
+in html we can use maximum of 75 keywords 
+
+mark tag is used to highlight the content within the tag 
+
+strong tag is used as keyword in html 
+
+

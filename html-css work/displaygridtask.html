@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grit Image Gallery </title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: aqua;
+            /* width: 100vw; */
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(24,1fr);
+            grid-template-rows: repeat(4,1fr);
+            row-gap: 4px;
+            column-gap: 4px;
+
+        }
+        .size{
+            height: 300px;
+
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .box1{
+            grid-column-start: 1;
+            grid-column-end: 8;
+        }
+        .box2{
+            grid-column-start: 8;
+            grid-column-end: 15;
+        }
+        .box3{
+            grid-column-start: 15;
+            grid-column-end: 18;
+        }
+        .box4{
+            grid-column-start: 18;
+            grid-column-end: 25;
+        }
+        .box5{
+            grid-column-start: 1;
+            grid-column-end: 13;
+        }
+        .box6{
+            grid-column-start: 13;
+            grid-column-end: 19;
+        }
+        .box7{
+            grid-column-start: 19;
+            grid-column-end: 25;
+        }
+        .box8{
+            grid-column-start: 1;
+            grid-column-end: 8;
+        }
+        .box9{
+            grid-column-start: 8;
+            grid-column-end: 18;
+        }
+        .box10{
+            grid-column-start: 18;
+            grid-column-end: 25;
+        }
+        .box11{
+            grid-column-start: 1;
+            grid-column-end: 8;
+        }
+        .box12{
+            grid-column-start: 8;
+            grid-column-end: 11;
+        }
+        .box13{
+            grid-column-start: 11;
+            grid-column-end: 18;
+        }
+        .box14{
+            grid-column-start: 18;
+            grid-column-end: 25;
+        }
+        img:hover{
+            cursor: pointer;
+            transform: scale(1.2,1.2); 
+            transition-delay: 350ms ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1  size">
+            <img src="https://images.pexels.com/photos/17892635/pexels-photo-17892635/free-photo-of-working-combine-in-the-field-from-above.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="box2  size">
+            <img src="https://images.pexels.com/photos/14089677/pexels-photo-14089677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="box3 size">
+            <img src="https://images.pexels.com/photos/18661408/pexels-photo-18661408/free-photo-of-man-riding-a-bike-by-the-shore.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="box4 size">
+            <img src="https://images.pexels.com/photos/18707013/pexels-photo-18707013/free-photo-of-chasing-the-turquoise-hues-of-paradise.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="box5 size">
+            <img src="https://images.pexels.com/photos/18719143/pexels-photo-18719143/free-photo-of-red-sky-over-bridge-silhouette-at-sunset.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="box6  size">
+            <img src="https://images.pexels.com/photos/18254555/pexels-photo-18254555/free-photo-of-subway-train-in-berlin-germany.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="box7  size">
+            <img src="https://images.pexels.com/photos/16154703/pexels-photo-16154703/free-photo-of-a-man-in-the-desert.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="box8  size">
+            <img src="https://images.pexels.com/photos/16154703/pexels-photo-16154703/free-photo-of-a-man-in-the-desert.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="box9 size">
+            <img src="https://images.pexels.com/photos/18847930/pexels-photo-18847930/free-photo-of-venice.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="box10 size">
+            <img src="https://images.pexels.com/photos/18762005/pexels-photo-18762005/free-photo-of-a-city-street-with-cars-and-people-walking.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="box11 size">
+            <img src="https://images.pexels.com/photos/18666051/pexels-photo-18666051/free-photo-of-brunette-wearing-leather-jacket-and-sunglasses-in-city.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="box12 size">
+            <img src="https://images.pexels.com/photos/18101408/pexels-photo-18101408/free-photo-of-beautiful-old-town-of-florence.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="box13 size">
+            <img src="https://images.pexels.com/photos/3804899/pexels-photo-3804899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <div class="box14 size">
+            <img src="https://images.pexels.com/photos/13917896/pexels-photo-13917896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+    </div>
+</body>
+</html>
