@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212529;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 30px 0;
+}
+
+header h3 {
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+header h2 {
+    font-size: 2.3rem;
+    line-height: 50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.justi{
+    justify-content: center;
+}
+.justiend{
+    justify-content: end;
+}
+.align{
+    align-items: end;
+}
+.col-33 {
+    /* width: 33.33%; */
+    width: 100%;
+    border: solid 2px;
+}
+.marg{
+    margin: -5% 0 0 0;
+}
+/* card 1 */
+.color1{
+    background: linear-gradient(180deg, rgba(200, 42, 94, .5), rgba(111, 25, 104, .5));
+}
+.style {
+    position: relative;
+    width: 90%;
+    padding: 20px 30px 0 30px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.card-img {
+    position: absolute;
+    left: 10px;
+    top: -60%;
+}
+
+.card-no {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    stroke: #fff;
+    stroke-width: 2px;
+
+}
+
+.card-no h5 {
+    font-size: 55px;
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0px;
+}
+
+.details p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 0 50px 0;
+}
+
+
+.card::after {
+    content: "";
+    width: 5px;
+    height: 120%;
+    background-color: #fff;
+    position: absolute;
+    left: 105%;
+    top: -10%;
+}
+
+/* Second col */
+.middle{
+    position: relative;
+}
+.middle h5 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.middle::before{
+    content: "";
+    background-color: #fff;
+    width: 80%;
+    height: 5px;
+    font-size: 5px;
+    position: absolute;
+    left: -83%;
+    top: 15%;
+}
+.middle::after{
+    content: "";
+    background-color: #fff;
+    width: 80%;
+    height: 5px;
+    font-size: 5px;
+    position: absolute;
+    right: -83%;
+    bottom: 15%;
+}
+
+/* card 2 */
+.color2{
+    background: linear-gradient(0deg, rgba(29, 119, 80, .5), rgba(29, 119, 80, .5) 48%, rgba(54, 209, 220, .5));
+}
+.card2::before{
+    content: "";
+    width: 5px;
+    height: 120%;
+    background-color: #fff;
+    position: absolute;
+    left: -5%;
+    top: -10%;
+}
+
+.line2{
+    position: relative;
+}
+.line2::before{
+    content: "";
+    background-color: #fff;
+    width: 50%;
+    height: 5px;
+    font-size: 5px;
+    position: absolute;
+    left: -53%;
+    top: 15%;
+}
+.line2::after{
+    content: "";
+    background-color: #fff;
+    width: 50%;
+    height: 5px;
+    font-size: 5px;
+    position: absolute;
+    right: -53%;
+    bottom: 15%;
+}
+/* card 3 */
+.color3{
+    background: linear-gradient(0deg,rgba(130,36,36,.5),rgba(130,36,36,.5) 48%,rgba(255,169,71,.5));
+}
+.line3{
+    position: relative;
+}
+.line3::before{
+    content: "";
+    background-color: #fff;
+    width: 20%;
+    height: 5px;
+    font-size: 5px;
+    position: absolute;
+    left: -22%;
+    top: 15%;
+}
+.line3::after{
+    content: "";
+    background-color: #fff;
+    width: 20%;
+    height: 5px;
+    font-size: 5px;
+    position: absolute;
+    right: -22%;
+    bottom: 15%;
+}
+/* card 4 */
+.color4{
+    background: linear-gradient(0deg,rgba(102,53,130,.5),rgba(102,53,130,.5) 48%,rgba(69,104,220,.5)); 
+}
+.line4{
+    position: relative;
+}
+.line4::before{
+    content: "";
+    background-color: #fff;
+    width: 50%;
+    height: 5px;
+    font-size: 5px;
+    position: absolute;
+    left: -53%;
+    top: 15%;
+}
+.line4::after{
+    content: "";
+    background-color: #fff;
+    width: 50%;
+    height: 5px;
+    font-size: 5px;
+    position: absolute;
+    right: -53%;
+    bottom: 15%;
+}
+/* card 5 */
+.color5{
+    background: linear-gradient(0deg,rgba(0,50,125,.5),rgba(4,168,123,.5));
+}
+.line5{
+    position: relative;
+}
+.line5::before{
+    content: "";
+    background-color: #fff;
+    width: 10%;
+    height: 5px;
+    font-size: 5px;
+    position: absolute;
+    left: -12%;
+    top: 15%;
+}
+.line5::after{
+    content: "";
+    background-color: #fff;
+    width: 10%;
+    height: 5px;
+    font-size: 5px;
+    position: absolute;
+    right: -12%;
+    bottom: 15%;
+}
+/* card 6 */
+.color6{
+    background: linear-gradient(180deg,rgba(175,76,76,.5),rgba(50,55,88,.5) 46%,rgba(50,55,88,.5));
+}
+.line6{
+    position: relative;
+}
+.line6::before{
+    content: "";
+    background-color: #fff;
+    width: 47%;
+    height: 5px;
+    font-size: 5px;
+    position: absolute;
+    left: -50%;
+    top: 15%;
+}
+.line6::after{
+    content: "";
+    background-color: #fff;
+    width: 48%;
+    height: 5px;
+    font-size: 5px;
+    position: absolute;
+    right: -50%;
+    bottom: 15%;
+}
+/* card 7 */
+.color7{
+    background: linear-gradient(180deg,rgba(43,129,204,.5),rgba(106,61,22,.5));
+}
+
+@media (min-width: 992px) {
+    .container{
+        width: 900px;
+    }
+    .col-33{
+        width: 33.33%;
+    }
+}
+
+@media (min-width:1200px) {
+    .container{
+        width: 1100px;
+    }
+    .col-33{
+        width: 33.33%;
+    }
+    /* .line2::after{
+        display: none;
+    }
+    .middle::after{
+        display: none;
+    }
+    .middle::before{
+        display: none;
+    }
+    .line2::before{
+        display: none;
+    }
+    .line3::after{
+        display: none;
+    }
+    .line3::before{
+        display: none;
+    }
+    .line4::after{
+        display: none;
+    }
+    .line4::before{
+        display: none;
+    }
+    .line5::after{
+        display: none;
+    }
+    .line5::before{
+        display: none;
+    }
+    .line6::after{
+        display: none;
+    }
+    .line6::before{
+        display: none;
+    } */
+}
+
+@media (min-width: 1400px) {
+    .container{
+        width: 1300px;
+    }
+    .col-33{
+        width: 33.33%;
+    }
+}

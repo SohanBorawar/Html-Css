@@ -1,0 +1,39 @@
+section{
+    width: 1000px;
+    height: 500px;
+    background-color: blue;
+    position: relative;
+}
+.ball{
+    width: 100px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+@keyframes bounce {
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    25%{
+        transform: translate3d(150px,-200px,0);
+    }
+    50%{
+        transform: translate3d(300px,0,0);
+    }
+    75%{
+        transform: translate3d(450px,-200px,0);
+    }
+    100%{
+        transform: translate3d(600px,0,0);
+    }
+}
+

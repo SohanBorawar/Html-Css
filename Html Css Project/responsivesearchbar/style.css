@@ -53,3 +53,19 @@ section{
     width: 50px;
     right: 0;
 }
+.search-bar{
+    animation: click;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+  }
+@keyframes click {
+    0%{
+
+    }
+    50%{
+        width: 100px;
+    }
+    100%{
+        width: 100%;
+    }
+}

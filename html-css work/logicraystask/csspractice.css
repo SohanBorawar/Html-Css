@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212529;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 30px 0;
+}
+
+header h3 {
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+header h2 {
+    font-size: 2.3rem;
+    line-height: 50px;
+}
+
+main {
+    margin: 100px 0 0 0;
+    /* display: flex; */
+}
+
+.section-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    width: 350px;
+    background: linear-gradient(180deg,rgba(200,42,94,.5),rgba(111,25,104,.5));    padding: 20px 30px 0 30px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.card-img {
+    position: absolute;
+    left: 10px;
+    top: -60%;
+}
+
+.card-no {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    stroke: #fff;
+    stroke-width: 2px;
+
+}
+
+.card-no h5 {
+    font-size: 55px;
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0px;
+}
+
+.details p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 0 50px 0;
+}
+
+
+.card::after {
+    content: "";
+    width: 5px;
+    height: 120%;
+    background-color: #fff;
+    position: absolute;
+    left: 105%;
+    top: -10%;
+}
+
+.middle {
+    display: flex;
+    align-items: end;
+}
+
+.middle-text {
+    display: flex;
+    /* align-self: self-end; */
+}
+
+.middle-text h5 {
+    font-size: 25px;
+    color: #fff;
+    /* padding: 0 10px; */
+}
+
+.middle-text::before {
+    content: "";
+    background-color: #fff;
+    padding: 2px 75px;
+    margin: 0 10px 0 30px;
+    align-self: self-start;
+
+}
+
+.middle-text::after {
+    content: "";
+    background-color: #fff;
+    padding: 2px 85px;
+    margin: 0 30px 0 10px;
+    align-self: self-end;
+
+}
+
+
+/* second row */
+
+.section-2 {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.card2 {
+    position: relative;
+    width: 350px;
+    background: linear-gradient(0deg, rgba(29, 119, 80, .5), rgba(29, 119, 80, .5) 48%, rgba(54, 209, 220, .5));
+    padding: 20px 30px 0 30px;
+    /* margin: 20px 0; */
+    border-radius: 5px;
+}
+
+.card2-img {
+    position: absolute;
+    left: 10px;
+    top: -60%;
+}
+
+.card2-no {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    stroke: #fff;
+    stroke-width: 2px;
+
+}
+
+.card2-no h5 {
+    font-size: 55px;
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: transparent;
+}
+
+.card2-title {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0px;
+}
+
+.details2 p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 0 50px 0;
+}
+
+
+.card2::before {
+    content: "";
+    width: 5px;
+    height: 120%;
+    background-color: #fff;
+    margin: 0 15px 0 0;
+    position: absolute;
+    top: -10%;
+    left: -5%;
+
+}
+
+.middle2 {
+    display: flex;
+    align-items: end;
+}
+
+.middle2-text {
+    display: flex;
+    /* align-self: self-end; */
+}
+
+.middle2-text h5 {
+    font-size: 25px;
+    color: #fff;
+    /* padding: 0 10px; */
+}
+
+.middle2-text::before {
+    content: "";
+    background-color: #fff;
+    padding: 2px 65px;
+    margin: 0 10px 0 30px;
+    align-self: self-start;
+
+}
+
+.middle2-text::after {
+    content: "";
+    background-color: #fff;
+    padding: 2px 65px;
+    margin: 0 30px 0 10px;
+    align-self: self-end;
+
+}
+
+/* box 3 */
+
+.section-3{
+    margin: -30px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card3 {
+    position: relative;
+    width: 350px;
+    background: linear-gradient(0deg,rgba(130,36,36,.5),rgba(130,36,36,.5) 48%,rgba(255,169,71,.5));    padding: 20px 30px 0 30px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.card3::after {
+    content: "";
+    width: 5px;
+    height: 120%;
+    background-color: #fff;
+    position: absolute;
+    left: 105%;
+    top: -10%;
+}
+
+.middle3 {
+    display: flex;
+    align-items: end;
+}
+
+.middle3-text {
+    display: flex;
+    /* align-self: self-end; */
+}
+
+.middle3-text h5 {
+    font-size: 25px;
+    color: #fff;
+    /* padding: 0 10px; */
+}
+
+.middle3-text::before {
+    content: "";
+    background-color: #fff;
+    padding: 2px 35px;
+    margin: 0 10px 0 30px;
+    align-self: self-start;
+
+}
+
+.middle3-text::after {
+    content: "";
+    background-color: #fff;
+    padding: 2px 42px;
+    margin: 0 30px 0 10px;
+    align-self: self-end;
+
+}
+
+/* box 4 */
+.card4 {
+    position: relative;
+    width: 350px;
+    background: linear-gradient(0deg,rgba(102,53,130,.5),rgba(102,53,130,.5) 48%,rgba(69,104,220,.5));    border-radius: 5px;
+    padding: 20px 30px 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card4::before {
+    content: "";
+    width: 5px;
+    height: 120%;
+    background-color: #fff;
+    margin: 0 15px 0 0;
+    position: absolute;
+    top: -10%;
+    left: -5%;
+
+}
+.middle4 {
+    display: flex;
+    align-items: end;
+}
+
+.middle4-text {
+    display: flex;
+    /* align-self: self-end; */
+}
+
+.middle4-text h5 {
+    font-size: 25px;
+    color: #fff;
+    /* padding: 0 10px; */
+}
+
+.middle4-text::before {
+    content: "";
+    background-color: #fff;
+    padding: 2px 55px;
+    margin: 0 10px 0 30px;
+    align-self: self-start;
+
+}
+
+.middle4-text::after {
+    content: "";
+    background-color: #fff;
+    padding: 2px 65px;
+    margin: 0 30px 0 10px;
+    align-self: self-end;
+
+}
+
+/* box 5 */
+.card5 {
+    position: relative;
+    width: 350px;
+    background: linear-gradient(0deg,rgba(0,50,125,.5),rgba(4,168,123,.5));
+    padding: 20px 30px 0 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card5::after {
+    content: "";
+    width: 5px;
+    height: 120%;
+    background-color: #fff;
+    position: absolute;
+    left: 105%;
+    top: -10%;
+}
+
+.middle5 {
+    display: flex;
+    align-items: end;
+}
+
+.middle5-text {
+    display: flex;
+    /* align-self: self-end; */
+}
+
+.middle5-text h5 {
+    font-size: 25px;
+    color: #fff;
+    /* padding: 0 10px; */
+}
+
+.middle5-text::before {
+    content: "";
+    background-color: #fff;
+    padding: 2px 20px;
+    margin: 0 10px 0 30px;
+    align-self: self-start;
+
+}
+
+.middle5-text::after {
+    content: "";
+    background-color: #fff;
+    padding: 2px 20px;
+    margin: 0 30px 0 10px;
+    align-self: self-end;
+
+}
+
+/* box 6 */
+.card6 {
+    position: relative;
+    width: 350px;
+    background: linear-gradient(180deg,rgba(175,76,76,.5),rgba(50,55,88,.5) 46%,rgba(50,55,88,.5));
+    padding: 20px 30px 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card6::before {
+    content: "";
+    width: 5px;
+    height: 120%;
+    background-color: #fff;
+    margin: 0 15px 0 0;
+    position: absolute;
+    top: -10%;
+    left: -5%;
+
+}
+.middle4 {
+    display: flex;
+    align-items: end;
+}
+
+.middle4-text {
+    display: flex;
+    /* align-self: self-end; */
+}
+
+.middle4-text h5 {
+    font-size: 25px;
+    color: #fff;
+    /* padding: 0 10px; */
+}
+
+.middle4-text::before {
+    content: "";
+    background-color: #fff;
+    padding: 2px 55px;
+    margin: 0 10px 0 30px;
+    align-self: self-start;
+
+}
+
+.middle4-text::after {
+    content: "";
+    background-color: #fff;
+    padding: 2px 65px;
+    margin: 0 30px 0 10px;
+    align-self: self-end;
+}
+
+/* box 7 */
+.card7 {
+    position: relative;
+    width: 350px;
+    background: linear-gradient(180deg,rgba(43,129,204,.5),rgba(106,61,22,.5));
+    padding: 20px 30px 0 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card7::after {
+    content: "";
+    width: 5px;
+    height: 120%;
+    background-color: #fff;
+    position: absolute;
+    left: 105%;
+    top: -10%;
+}
+
+.middle5 {
+    display: flex;
+    align-items: end;
+}
+
+.middle5-text {
+    display: flex;
+    /* align-self: self-end; */
+}
+
+.middle5-text h5 {
+    font-size: 25px;
+    color: #fff;
+    /* padding: 0 10px; */
+}
+
+.middle5-text::before {
+    content: "";
+    background-color: #fff;
+    padding: 2px 20px;
+    margin: 0 10px 0 30px;
+    align-self: self-start;
+
+}
+
+.middle5-text::after {
+    content: "";
+    background-color: #fff;
+    padding: 2px 20px;
+    margin: 0 30px 0 10px;
+    align-self: self-end;
+
+}

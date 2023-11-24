@@ -762,3 +762,30 @@ input::placeholder{
 
 
 
+/* Animations */
+nav{
+    animation:navbaranimation ;
+    animation-duration: 2s;
+    animation-delay: 0s;
+}
+@keyframes  navbaranimation {
+    from{
+        transform: translateY(-250px);
+    }
+    to{
+        transform: translateY(0);
+    }
+
+}
+.hero-section-main{
+    animation: herosectionanimation;
+    animation-duration: 2s;
+}
+@keyframes herosectionanimation {
+    from{
+        transform: translateX(500px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
