@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
+<body id="body">
     <section class="section-1">
         <header>
             <div class="container">
@@ -65,7 +65,7 @@
                                 chocolate cake?
                             </p>
                             <div class="btn-1">
-                                <button>Pastrey Courses</button>
+                                <button id="colorchange" onclick="changeColor()">Pastrey Courses</button>
                             </div>
                         </div>
                     </div>
@@ -477,6 +477,20 @@
             </div>
         </footer>
     </div>
+
+
+
+    <script>
+        let btn = document.getElementById("colorchange")
+        let body = document.getElementById("body")
+        console.log(body)
+        
+        function changeColor(){
+            body.style.backgroundcolor = "black";
+        }
+
+
+    </script>
 
 </body>
 
