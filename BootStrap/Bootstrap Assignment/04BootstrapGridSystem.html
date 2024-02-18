@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h3>04. What do you know about the Bootstrap Grid System?</h3>
+    </div>
+
+    <div>
+        <p>The Bootstrap Grid System is a powerful and responsive layout system that allows developers to create a
+            flexible and
+            consistent structure for web pages. It is based on a 12-column layout, and it uses a combination of
+            container, row, and
+            column classes to organize content. The grid system is designed to be mobile-first, ensuring that web pages
+            look good
+            and function well on a variety of devices and screen sizes.</p>
+        <p>Here are key concepts and components of the Bootstrap Grid System:</p>
+        <ol>
+            <li>Containers:
+                <ul>
+                    <li>Bootstrap layout begins with a container. Containers provide a fixed-width container for content
+                        and help center it on
+                        the page. There are two types of containers: container for responsive fixed-width containers and
+                        container-fluid for
+                        full-width containers that span the entire viewport.</li>
+                </ul>
+            </li>
+            <li>Rows:
+                <ul>
+                    <li>Inside a container, you use rows to create horizontal groups of columns. Rows are necessary to
+                        contain and clear the
+                        columns. Rows are defined using the row class.</li>
+                </ul>
+            </li>
+            <li>Columns:
+                <ul>
+                    <li>Bootstrap divides the layout into 12 columns. Columns are placed inside rows and define how
+                        content is distributed
+                        horizontally. You can specify the width of a column by using classes such as col-md-6, which
+                        means the column takes up
+                        six out of the twelve available columns. The md in col-md-6 refers to the medium-sized screens,
+                        and Bootstrap provides
+                        classes for various screen sizes (xs, sm, md, lg, xl).</li>
+                </ul>
+            </li>
+            <li>Offsetting Columns:
+                <ul>
+                    <li>You can offset columns using offset classes (offset-md-2). This allows you to create additional
+                        space between columns.</li>
+                </ul>
+            </li>
+            <li>Responsive Classes:
+                <ul>
+                    <li>Bootstrap's grid system is inherently responsive. You can use responsive classes to control the
+                        layout on different
+                        screen sizes. For example, you might want a column to take up the full width on a small screen
+                        (col-12), but only half
+                        the width on larger screens (col-md-6).</li>
+                </ul>
+            </li>
+            <li>Nesting Columns:
+                <ul>
+                    <li>Columns can be nested within other columns to create more complex layouts. This allows for
+                        greater flexibility and
+                        control over the structure of the page.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <p>
+        This creates a row with three equal-width columns. The layout will adapt to different screen sizes, providing a
+        responsive design. The Bootstrap Grid System is a fundamental and widely-used feature of the Bootstrap
+        framework, making
+        it easier for developers to create consistent and responsive web layouts.
+    </p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">Column 1</div>
+            <div class="col-md-4">Column 2</div>
+            <div class="col-md-4">Column 3</div>
+        </div>
+    </div>
+</body>
+
+</html>

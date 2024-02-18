@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h3>
+            08. In Bootstrap 4, what is flexbox?
+        </h3>
+    </div>
+
+    <div>
+        <p>In Bootstrap 4, Flexbox (Flexible Box Layout) is a powerful layout model used for designing flexible and
+            responsive page
+            layouts. Bootstrap 4 heavily relies on Flexbox to create a grid system that allows for easy alignment and
+            distribution
+            of space among elements within a container.</p>
+        <p>Key features of Flexbox in Bootstrap 4 include:</p>
+        <ol>
+            <li>Grid System:
+                <ul>
+                    <li>Bootstrap 4's grid system is built on top of Flexbox. The display: flex property is applied to
+                        the container, and the
+                        child elements become flex items. This allows for the creation of responsive and flexible
+                        layouts.</li>
+                </ul>
+            </li>
+            <li>Flex Containers and Items:
+                <ul>
+                    <li>Elements with the class d-flex become flex containers, and their children become flex items.
+                        This enables developers to
+                        control the layout, alignment, and spacing of items within the container using Flexbox
+                        properties.</li>
+                </ul>
+            </li>
+            <li>Flex Utilities:
+                <ul>
+                    <li>Bootstrap 4 provides a set of utility classes for working with Flexbox. These classes include
+                        utilities for adjusting
+                        container properties (d-flex, d-inline-flex), item alignment and ordering (align-items,
+                        align-self, order), and flex
+                        direction (flex-row, flex-column, flex-row-reverse, flex-column-reverse).</li>
+                </ul>
+            </li>
+            <li>Justify Content and Align Items:
+                <ul>
+                    <li>Flexbox in Bootstrap 4 allows developers to easily justify content and align items within a flex
+                        container. Utilities
+                        like justify-content and align-items can be used to control the horizontal and vertical
+                        alignment of items.</li>
+                </ul>
+            </li>
+            <li>Responsive Flex Utilities:
+                <ul>
+                    <li>Flexbox utilities in Bootstrap 4 are responsive, meaning you can apply different Flexbox
+                        behavior based on screen size
+                        breakpoints. For example, you can use d-md-flex to apply the flex display only on medium-sized
+                        screens and larger.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div>
+        <p>Here's a simple example demonstrating the use of Flexbox in a Bootstrap 4 container:</p>
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div>Item 1</div>
+                <div>Item 2</div>
+                <div>Item 3</div>
+            </div>
+        </div>
+
+        <p>In this example, the d-flex class is used to make the container a flex container, and justify-content-between
+            is used to
+            distribute the child items with space between them. </p>
+        <p>Flexbox in Bootstrap 4 simplifies the process of creating responsive and dynamic layouts, providing a cleaner
+            and more
+            efficient alternative to traditional layout methods like floats and positioning.</p>
+    </div>
+
+</body>
+
+</html>

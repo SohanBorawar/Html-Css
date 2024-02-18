@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h3>
+            02. What is a Bootstrap Container, and how does it work?
+        </h3>
+    </div>
+
+    <div>
+        <p>In Bootstrap, a container is a crucial component that provides a responsive fixed-width container for your
+            content. The
+            purpose of the container is to wrap and center your site's content within a specific layout, helping to
+            ensure
+            consistent spacing and alignment across various screen sizes</p>
+        <ol>
+            <p>Bootstrap offers two main types of containers: .container and .container-fluid.</p>
+            <li>.container:
+                <ul>
+                    <li>The .container class creates a responsive fixed-width container. It adjusts its width based on
+                        the device's screen size,
+                        providing a maximum width for the content.</li>
+                    <li>The container has a responsive behavior, changing its width at different breakpoints to maintain
+                        an optimal reading and
+                        navigation experience.</li>
+                    <li>It has a fixed maximum width, and the width may change at different breakpoints (responsive
+                        design).</li>
+                    <li>
+                        <div class="container">
+                            <!-- Your content goes here -->
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>.container-fluid:
+                <ul>
+                    <li>The .container-fluid class creates a full-width container that spans the entire width of the
+                        viewport. It does not have
+                        a fixed maximum width like the .container class.</li>
+                    <li>It is suitable for designs where you want the content to stretch across the entire width of the
+                        screen.</li>
+                    <li>
+                        <div class="container-fluid">
+                            <!-- Your content goes here -->
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+
+        <ul>
+            <p>How it works:</p>
+            <li>The container uses CSS media queries to adapt its width based on the screen size. Bootstrap employs a
+                responsive grid
+                system, and the container's width is adjusted at different breakpoints (extra small, small, medium,
+                large, and
+                extra-large) to create a fluid and responsive layout.</li>
+            <li>The container helps ensure that your content is visually appealing and readable on various devices, from
+                small mobile
+                screens to larger desktop monitors.</li>
+            <li>The use of containers aligns with Bootstrap's mobile-first approach, where the default styles are
+                designed for mobile
+                devices, and additional styles are added for larger screens.</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple example of using a Bootstrap container.</p>
+    </div>
+    <p>In this example, the content is wrapped in a .container class, which provides consistent spacing and alignment
+        based on
+        the screen size. You can customize the content within the container while leveraging Bootstrap's responsive
+        design
+        features.</p>
+</body>
+
+</html>
